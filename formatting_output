@@ -1,0 +1,9 @@
+echo -e "Name\t\tNumber"; echo -e "ss\t\t123"
+Name            Number
+ss              123
+
+echo -e "This text\nbreaks over\nthree lines"
+This text
+breaks over
+three lines
+

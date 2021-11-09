@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+declare -A office
+office[city]="Seattle"
+office["building name"]="HQ West"
+echo ${office["building name"]} is in ${office[city]}

@@ -1,0 +1,7 @@
+[[ -d ~ && -a /bin/bash ]]; echo $?
+#return 0
+[[ -d ~ ]] && echo ~ is a directory
+#return /home/ss is a directory
+ls && echo "listed the directory"
+#return command ls and string listed the directory
+

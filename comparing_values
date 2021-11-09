@@ -1,0 +1,7 @@
+[ -d /bin/bash ]; echo $?
+[ -d /bin ]; echo$?
+[ "cat" = "dog" ]; echo$?
+[ "cat" = "cat" ]; echo$?
+[ 4 - lt 5 ]; echo$?
+[ 4 - lt 3 ]; echo$?
+[ ! 4 - lt 3 ]; echo$?
