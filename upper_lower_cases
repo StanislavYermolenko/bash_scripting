@@ -1,0 +1,7 @@
+#lowercase
+declare -l lowerstring="TEXT"
+echo "The value of the $lowerstring"
+
+#uppercase
+declare -u upperstring="This is real TEXt"
+echo $upperstring

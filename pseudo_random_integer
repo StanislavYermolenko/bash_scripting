@@ -1,0 +1,4 @@
+#just random number
+echo $RANDOM
+#number in range 1 to value of divisor(10 for now)
+echo $(( 1 + $RANDOM % 10 )) 
