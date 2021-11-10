@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+animal="dog"
+case $animal in
+	cat) echo "1 group";;
+	dog|puppy) echo "2 group";;
+	*) echo "No match!"
+esac
+

@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+greet() {
+	echo "Hi there, $1, what a nice $2"
+}
+
+echo "Greeting:"
+greet ss morning
+greet everybody evening
+

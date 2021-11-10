@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+echo "until loop"
+
+declare -i m=0
+until (( m == 10 ))
+do
+	echo "m:$m"
+	(( m++ ))
+#	sleep1 just for experiment
+done

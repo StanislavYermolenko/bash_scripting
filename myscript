@@ -1,7 +1,0 @@
-#!/usr/bin/env bash
-
-myvar="Hello!"
-echo "The value of myvar variable is: $myvar"
-myvar="Bonjour!"
-echo "The value of myvar variable is: $myvar"
-

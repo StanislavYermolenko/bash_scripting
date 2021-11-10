@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+numbering () {
+	declare -i i=1
+	for f in $@; do
+	echo "$i: $f"
+	(( i+= 1 ))
+	done 
+	echo "this leading to you by $FUNCNAME"
+}
+
+numbering $(ls /)
+echo 
+numbering pine birch oak
