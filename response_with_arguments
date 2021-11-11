@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+if (($#<3)); then
+	echo "This command requires three arguments:"
+	echo "username, userID, secret number"
+else
+	echo "username: $1"
+	echo "userID: $2"
+	echo "favorite number: $3"
+fi
