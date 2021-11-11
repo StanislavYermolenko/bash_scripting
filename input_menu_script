@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+echo "Which car you choose?"
+select car in "BMW" "VW" "Peugeot"
+do
+	echo "You selected $car!"
+	break
+done 
