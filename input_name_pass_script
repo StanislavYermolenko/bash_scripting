@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+echo "What is your name?"
+read name
+echo "What is your password?"
+read -s pass
+#-s silent mode
+echo "name: $name, pass: $pass"
